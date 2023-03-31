@@ -145,6 +145,17 @@
   padding-bottom: 10px;
 }
 
+.isAnalytics {
+  position: absolute;
+  z-index: 30;
+  width: calc(100% - 190px);
+  height: 20px;
+  margin-right: 10px;
+  left: 0;
+  top: calc(100% - 40px);
+  padding-bottom: 10px;
+}
+
 .expanded-annotator-space {
   width: calc(100% - 190px);
   height: calc(100% - 50px);

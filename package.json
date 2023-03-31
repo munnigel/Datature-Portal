@@ -57,6 +57,7 @@
     "electron-log": "^4.3.5",
     "electron-squirrel-startup": "^1.0.0",
     "fs": "0.0.1-security",
+    "lodash": "^4.17.21",
     "node-fetch": "^2.6.1",
     "python-shell": "^1.0.8"
   },
