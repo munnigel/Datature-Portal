@@ -54,8 +54,8 @@ export default class AnalyticsBar extends React.Component<AnalyticsProps> {
         actions: tagAnalytics[item] ? tagAnalytics[item].map((subItem: any, idx:number) => {
           return {
             id: `item-${idx}`,
-            start: Number(subItem) / 1040,
-            end: (Number(subItem) + 40) / 1040,
+            start: Number(subItem) / 999,
+            end: (Number(subItem) + 40) / 999,
             effectId: "effect0", // not sure what is this
           }
         }) : []
@@ -82,7 +82,7 @@ export default class AnalyticsBar extends React.Component<AnalyticsProps> {
 
   public render() {
     return (
-      <div style={{ width: '100%' }}>
+      <div style={{ width: '100%', height: '100%' }}>
         <div className={styles['Timeline-editor-example7']}>
           <div
             ref={this.domRef}

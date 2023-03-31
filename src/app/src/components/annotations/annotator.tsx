@@ -835,7 +835,7 @@ export default class Annotator extends Component<
               
               // {frame: [all labels that appear in that frame]}
               this.setState({vidData: vidDataObj})
-
+              
               /**
                * Id to track the current handler number so that this handler
                * can be removed when selectAsset is called. more information
