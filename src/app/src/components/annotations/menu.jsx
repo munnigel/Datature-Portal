@@ -315,7 +315,6 @@ export default class AnnotationMenu extends Component {
                 <div>{this.generateAnnotationHideIcon(annotation)}</div>
               }
               onClick={async () => {
-                console.log(this.tagNames[annotation.options.annotationTag])
                 /**
                  * Click on the annotation on the image
                  * Annotator will handle the state change
